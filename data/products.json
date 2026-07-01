@@ -1,0 +1,100 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Red Seedless",
+            "category": "Uvas",
+            "description": "Uva de mesa roja, sin semilla, de baya firme y color intenso. Producto orientado a exportación en fresco.",
+            "price": 3.2,
+            "unit": "kg",
+            "presentation": "Caja de 8.2 kg",
+            "origin": "Ica, Perú",
+            "stock": 1240,
+            "image": "assets/img/Red.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Green Grapes",
+            "category": "Uvas",
+            "description": "Uva verde de mesa, fresca y crujiente, disponible en presentaciones comerciales para exportación.",
+            "price": 2.85,
+            "unit": "kg",
+            "presentation": "Caja de 4 kg",
+            "origin": "Ica, Perú",
+            "stock": 980,
+            "image": "assets/img/Green.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Black Seedless",
+            "category": "Uvas",
+            "description": "Uva negra sin semilla, de sabor dulce y apariencia uniforme. Adecuada para mercados internacionales en fresco.",
+            "price": 3.45,
+            "unit": "kg",
+            "presentation": "Caja de 8.2 kg",
+            "origin": "Ica, Perú",
+            "stock": 540,
+            "image": "assets/img/Black.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Specialities Grapes",
+            "category": "Uvas",
+            "description": "Selección de uvas especiales de alto valor comercial, con calibre uniforme y presentación premium.",
+            "price": 4.1,
+            "unit": "kg",
+            "presentation": "Caja premium de 4.5 kg",
+            "origin": "Ica, Perú",
+            "stock": 760,
+            "image": "assets/img/Specialites.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Ventura Berries",
+            "category": "Berries",
+            "description": "Arándano variedad Ventura, firme y de buen calibre. Producto fresco con cadena de frío para exportación.",
+            "price": 6.4,
+            "unit": "kg",
+            "presentation": "Clamshell de 125 g x 12",
+            "origin": "Ica, Perú",
+            "stock": 2100,
+            "image": "assets/img/Ventura.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Magica Berries",
+            "category": "Berries",
+            "description": "Arándano de presentación comercial para exportación, seleccionado por firmeza, color y condición de llegada.",
+            "price": 6.1,
+            "unit": "kg",
+            "presentation": "Clamshell de 125 g x 12",
+            "origin": "Ica, Perú",
+            "stock": 1500,
+            "image": "assets/img/magica.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Tango",
+            "category": "Cítricos",
+            "description": "Mandarina Tango de fácil pelado, buen balance entre dulzor y acidez, orientada al consumo fresco.",
+            "price": 2.6,
+            "unit": "kg",
+            "presentation": "Caja de 10 kg",
+            "origin": "Ica, Perú",
+            "stock": 430,
+            "image": "assets/img/tango.jpg"
+        },
+        {
+            "id": 8,
+            "name": "W. Murcott - Nadorcott",
+            "category": "Cítricos",
+            "description": "Mandarina W. Murcott/Nadorcott de color intenso y sabor dulce. Producto fresco para mercados de exportación.",
+            "price": 2.75,
+            "unit": "kg",
+            "presentation": "Caja de 10 kg",
+            "origin": "Ica, Perú",
+            "stock": 1800,
+            "image": "assets/img/Nadorcott.jpg"
+        }
+    ]
+}

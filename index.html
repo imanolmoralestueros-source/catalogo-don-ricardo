@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Catálogo de productos de exportación de Agrícola Don Ricardo: uvas de mesa, arándanos y cítricos.">
+
+    <link rel="icon" href="assets/img/logo.svg">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/products.css">
+
+    <title>Catálogo de exportación — Agrícola Don Ricardo</title>
+</head>
+
+<body>
+
+    <header class="siteHeader">
+        <div class="siteHeader__inner">
+            <a href="index.html" class="brand">
+                <img src="assets/img/logo.svg" alt="Agrícola Don Ricardo">
+            </a>
+            <div class="headerActions">
+                <span class="userTag" id="userTag">Sesión activa</span>
+                <button id="logout" class="btn btn--danger">Cerrar sesión</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="catalog">
+
+        <section class="hero">
+            <h1>Catálogo de exportación</h1>
+            <p>
+                Uvas de mesa, arándanos y cítricos frescos cultivados en Ica,
+                seleccionados para mercados internacionales.
+            </p>
+        </section>
+
+        <div class="toolbar">
+            <div class="toolbar__search">
+                <input type="search" id="search" class="field"
+                    placeholder="Buscar producto..." aria-label="Buscar producto">
+            </div>
+            <div class="toolbar__select">
+                <select id="category" class="field" aria-label="Filtrar por categoría">
+                    <option value="">Todas las categorías</option>
+                </select>
+            </div>
+            <p class="toolbar__count" id="count"></p>
+        </div>
+
+        <div id="productGrid" class="productGrid"></div>
+
+        <div id="state" class="state" hidden></div>
+
+    </main>
+
+    <footer class="siteFooter">
+        <p>Agrícola Don Ricardo &middot; Proyecto académico — Tecsup, Desarrollo Web Fullstack.</p>
+    </footer>
+
+    <script src="scripts/products.js" type="module"></script>
+
+</body>
+
+</html>

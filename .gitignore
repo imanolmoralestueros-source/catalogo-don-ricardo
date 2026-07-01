@@ -1,0 +1,6 @@
+# Dependencias y artefactos
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+.vscode/

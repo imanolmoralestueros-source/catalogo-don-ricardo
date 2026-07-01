@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="../assets/img/logo.svg">
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/product.css">
+
+    <title>Detalle del producto — Agricola Don Ricardo</title>
+</head>
+
+<body>
+
+    <header class="siteHeader">
+        <div class="siteHeader__inner">
+            <a href="../index.html" class="brand">
+                <img src="../assets/img/logo.svg" alt="Agricola Don Ricardo">
+            </a>
+        </div>
+    </header>
+
+    <main class="productPage">
+
+        <a href="../index.html" class="backLink">&larr; Volver al catálogo</a>
+
+        <section id="detail" class="productDetail">
+
+            <div class="productImageContainer">
+                <img id="productImage" alt="Imagen del producto">
+            </div>
+
+            <div class="productInfo">
+                <p id="category" class="productCategory"></p>
+                <h1 id="productName"></h1>
+                <p id="description" class="productDescription"></p>
+
+                <ul class="specs">
+                    <li><span>Presentación</span><b id="presentation"></b></li>
+                    <li><span>Origen</span><b id="origin"></b></li>
+                    <li><span>Stock</span><b id="stock"></b></li>
+                </ul>
+
+                <p class="productPrice">
+                    <span id="price"></span> <small id="unit"></small>
+                </p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="../scripts/singleProduct.js" type="module"></script>
+
+</body>
+
+</html>
